@@ -24,7 +24,7 @@ app.get('/',(req, res) => {
     res.send('AI')
 })
 
-app.options('*', cors()) 
+app.options("*", cors()) 
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
